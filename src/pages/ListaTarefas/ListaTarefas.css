@@ -1,0 +1,80 @@
+/* src/components/ListaTarefas/ListaTarefas.css */
+
+.lista-tarefas-container {
+    text-align: center;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f9a273;
+  }
+  
+  .botoes-adicionar {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  ul li , a {
+    border-radius: 5px;
+    padding: 5px 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.3rem;
+  }
+  
+  ul a:hover {
+    color: #f0ab7d;
+  }
+
+ .prioridade-baixa {
+    background-color: #acf6cb;
+  }
+  
+.prioridade-normal {
+    background-color: #91cef6;
+  }
+  
+ .prioridade-alta {
+    background-color: #f59d93;
+  }
+  
+
+  /* ... (código posterior) */
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    animation: fadeIn 1s ease;
+  }
+  
